@@ -7,12 +7,12 @@ Turn Wi-Fi service off on sleep, back on when wake up.
 请参考createpkg目录的脚本
 
 ## 安装
-设计的思想是，将所有的文件都安装在/Library/Application Support/offWifiSleep文件夹中，并利用LaunchDaemon来启动服务。
+设计的思想是，将所有的文件都安装在/Library/offWifiSleep文件夹中，并利用LaunchDaemon来启动服务。
 
 ## 卸载
 为了方便卸载，最直接的方法是执行下面的命令：
 ```
-sudo "/Library/Application Support/offWifiSleep/uninstall.sh"
+sudo "/Library/offWifiSleep/uninstall.sh"
 ```
 
 ## 禁止/开启
